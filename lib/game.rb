@@ -8,7 +8,7 @@ class Game
   def warrior defensive_strength, offensive_strength
     armor = armor_with defensive_strength
     weapon = weapon_with offensive_strength
-    new_player = Soldier.defending_and_attacking_wth armor, weapon
+    new_player = Soldier.defending_and_attacking_with armor, weapon
 
     @lives_board.register_new_player new_player
   end

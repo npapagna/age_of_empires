@@ -1,6 +1,6 @@
 class Soldier
 
-  def self.defending_and_attacking_wth armor, weapon
+  def self.defending_and_attacking_with armor, weapon
     self.new armor, weapon
   end
 
